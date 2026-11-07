@@ -1,0 +1,63 @@
+# --- Dependencias ---
+node_modules/
+jspm_packages/
+
+# --- Entorno y Secretos ---
+.env
+.env.*
+!.env.example
+*.env
+
+# --- Registros y Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Cobertura de Pruebas ---
+coverage/
+.nyc_output/
+
+# --- Build y Compilación (TypeScript / Bundlers) ---
+dist/
+build/
+out/
+.tsbuildinfo
+
+# --- Base de Datos y Almacenamiento Local ---
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+uploads/
+storage/
+
+# --- Sistema operativo y Editores ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editores y IDEs (VS Code, WebStorm, etc.)
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# --- Docker y Contenedores ---
+.dockerignore
